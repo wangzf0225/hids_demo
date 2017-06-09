@@ -1,0 +1,1695 @@
+{"cmds_md5":
+[
+  {
+    "cmd": "passwd",
+    "path": "/usr/bin/passwd",
+    "md5": "d9b9000fe9be6bcb919a27fff432f502"
+  },
+  {
+    "cmd": "portmap",
+    "path": "",
+    "md5": "null"
+  },
+  {
+    "cmd": "login",
+    "path": "/bin/login",
+    "md5": "15eb19013fec9fa10cb11a719a010bc7"
+  },
+  {
+    "cmd": "ps",
+    "path": "/bin/ps",
+    "md5": "0c3bc0b6e9457fe49b9771e8b896e589"
+  },
+  {
+    "cmd": "sshd",
+    "path": "/usr/sbin/sshd",
+    "md5": "b9dc4b1248f6a2019bd48dbb9fc4131c"
+  },
+  {
+    "cmd": "bash",
+    "path": "/bin/bash",
+    "md5": "93185a1c6c95f13828da14463184502a"
+  },
+  {
+    "cmd": "ifconfig",
+    "path": "/sbin/ifconfig",
+    "md5": "93f8c878ffb7107b343bcf08e978f6e3"
+  },
+  {
+    "cmd": "ls",
+    "path": "/bin/ls",
+    "md5": "1183c442a1ccd3291a84307761ab2a84"
+  },
+  {
+    "cmd": "netstat",
+    "path": "/bin/netstat",
+    "md5": "3adb02328f112627e3334977a81b09cc"
+  },
+  {
+    "cmd": "ps",
+    "path": "/bin/ps",
+    "md5": "0c3bc0b6e9457fe49b9771e8b896e589"
+  },
+  {
+    "cmd": "top",
+    "path": "/usr/bin/top",
+    "md5": "fce76c1009d29bede51eb0fce4925dec"
+  },
+  {
+    "cmd": "syslogd",
+    "path": "",
+    "md5": "null"
+  },
+  {
+    "cmd": "tcpdump",
+    "path": "/usr/sbin/tcpdump",
+    "md5": "1f97c7329b9f02bca08b059ca8a7cf9e"
+  },
+  {
+    "cmd": "gcc",
+    "path": "/usr/bin/gcc",
+    "md5": "81a7575530d99bfa28b251c64dfdbdfb"
+  }
+]
+,"mod_info":
+[
+  {
+    "mod": "can_bcm",
+    "size": "12192",
+    "used": "0",
+    "by": null
+  },
+  {
+    "mod": "can",
+    "size": "31933",
+    "used": "1",
+    "by": "can_bcm"
+  },
+  {
+    "mod": "tcp_diag",
+    "size": "1041",
+    "used": "0",
+    "by": null
+  },
+  {
+    "mod": "inet_diag",
+    "size": "8735",
+    "used": "1",
+    "by": "tcp_diag"
+  },
+  {
+    "mod": "nls_utf8",
+    "size": "1455",
+    "used": "0",
+    "by": null
+  },
+  {
+    "mod": "ipv6",
+    "size": "317340",
+    "used": "0",
+    "by": null
+  },
+  {
+    "mod": "ipt_REJECT",
+    "size": "2351",
+    "used": "2",
+    "by": null
+  },
+  {
+    "mod": "nf_conntrack_ipv4",
+    "size": "9506",
+    "used": "2",
+    "by": null
+  },
+  {
+    "mod": "nf_defrag_ipv4",
+    "size": "1483",
+    "used": "1",
+    "by": "nf_conntrack_ipv4"
+  },
+  {
+    "mod": "xt_state",
+    "size": "1492",
+    "used": "2",
+    "by": null
+  },
+  {
+    "mod": "nf_conntrack",
+    "size": "79758",
+    "used": "2",
+    "by": "nf_conntrack_ipv4,xt_state"
+  },
+  {
+    "mod": "iptable_filter",
+    "size": "2793",
+    "used": "1",
+    "by": null
+  },
+  {
+    "mod": "ip_tables",
+    "size": "17831",
+    "used": "1",
+    "by": "iptable_filter"
+  },
+  {
+    "mod": "virtio_balloon",
+    "size": "4798",
+    "used": "0",
+    "by": null
+  },
+  {
+    "mod": "virtio_console",
+    "size": "19537",
+    "used": "1",
+    "by": null
+  },
+  {
+    "mod": "i2c_piix4",
+    "size": "12608",
+    "used": "0",
+    "by": null
+  },
+  {
+    "mod": "i2c_core",
+    "size": "31084",
+    "used": "1",
+    "by": "i2c_piix4"
+  },
+  {
+    "mod": "virtio_net",
+    "size": "17080",
+    "used": "0",
+    "by": null
+  },
+  {
+    "mod": "sg",
+    "size": "29350",
+    "used": "0",
+    "by": null
+  },
+  {
+    "mod": "jbd2",
+    "size": "93427",
+    "used": "1",
+    "by": "ext4"
+  },
+  {
+    "mod": "mbcache",
+    "size": "8193",
+    "used": "1",
+    "by": "ext4"
+  },
+  {
+    "mod": "virtio_blk",
+    "size": "7164",
+    "used": "2",
+    "by": null
+  },
+  {
+    "mod": "sr_mod",
+    "size": "15177",
+    "used": "0",
+    "by": null
+  },
+  {
+    "mod": "cdrom",
+    "size": "39085",
+    "used": "1",
+    "by": "sr_mod"
+  },
+  {
+    "mod": "virtio_pci",
+    "size": "6985",
+    "used": "0",
+    "by": null
+  },
+  {
+    "mod": "virtio_ring",
+    "size": "8917",
+    "used": "5",
+    "by": "virtio_balloon,virtio_console,virtio_net,virtio_blk,virtio_pci"
+  },
+  {
+    "mod": "virtio",
+    "size": "4977",
+    "used": "5",
+    "by": "virtio_balloon,virtio_console,virtio_net,virtio_blk,virtio_pci"
+  },
+  {
+    "mod": "pata_acpi",
+    "size": "3701",
+    "used": "0",
+    "by": null
+  },
+  {
+    "mod": "ata_generic",
+    "size": "3837",
+    "used": "0",
+    "by": null
+  },
+  {
+    "mod": "ata_piix",
+    "size": "24601",
+    "used": "0",
+    "by": null
+  },
+  {
+    "mod": "dm_mirror",
+    "size": "14384",
+    "used": "0",
+    "by": null
+  },
+  {
+    "mod": "dm_region_hash",
+    "size": "12085",
+    "used": "1",
+    "by": "dm_mirror"
+  },
+  {
+    "mod": "dm_log",
+    "size": "9930",
+    "used": "2",
+    "by": "dm_mirror,dm_region_hash"
+  },
+  {
+    "mod": "dm_mod",
+    "size": "84209",
+    "used": "2",
+    "by": "dm_mirror,dm_log"
+  }
+]
+,"account_info":
+[
+  {
+    "loginname": "root",
+    "passwd": "x",
+    "uid": "0",
+    "gid": "0",
+    "username": "root",
+    "homedir": "/root",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "bin",
+    "passwd": "x",
+    "uid": "1",
+    "gid": "1",
+    "username": "bin",
+    "homedir": "/bin",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "daemon",
+    "passwd": "x",
+    "uid": "2",
+    "gid": "2",
+    "username": "daemon",
+    "homedir": "/sbin",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "adm",
+    "passwd": "x",
+    "uid": "3",
+    "gid": "4",
+    "username": "adm",
+    "homedir": "/var/adm",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "lp",
+    "passwd": "x",
+    "uid": "4",
+    "gid": "7",
+    "username": "lp",
+    "homedir": "/var/spool/lpd",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "sync",
+    "passwd": "x",
+    "uid": "5",
+    "gid": "0",
+    "username": "sync",
+    "homedir": "/sbin",
+    "shell": "/bin/sync"
+  },
+  {
+    "loginname": "shutdown",
+    "passwd": "x",
+    "uid": "6",
+    "gid": "0",
+    "username": "shutdown",
+    "homedir": "/sbin",
+    "shell": "/sbin/shutdown"
+  },
+  {
+    "loginname": "halt",
+    "passwd": "x",
+    "uid": "7",
+    "gid": "0",
+    "username": "halt",
+    "homedir": "/sbin",
+    "shell": "/sbin/halt"
+  },
+  {
+    "loginname": "mail",
+    "passwd": "x",
+    "uid": "8",
+    "gid": "12",
+    "username": "mail",
+    "homedir": "/var/spool/mail",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "uucp",
+    "passwd": "x",
+    "uid": "10",
+    "gid": "14",
+    "username": "uucp",
+    "homedir": "/var/spool/uucp",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "operator",
+    "passwd": "x",
+    "uid": "11",
+    "gid": "0",
+    "username": "operator",
+    "homedir": "/root",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "games",
+    "passwd": "x",
+    "uid": "12",
+    "gid": "100",
+    "username": "games",
+    "homedir": "/usr/games",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "gopher",
+    "passwd": "x",
+    "uid": "13",
+    "gid": "30",
+    "username": "gopher",
+    "homedir": "/var/gopher",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "ftp",
+    "passwd": "x",
+    "uid": "14",
+    "gid": "50",
+    "username": "FTP User",
+    "homedir": "/var/ftp",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "nobody",
+    "passwd": "x",
+    "uid": "99",
+    "gid": "99",
+    "username": "Nobody",
+    "homedir": "/",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "vcsa",
+    "passwd": "x",
+    "uid": "69",
+    "gid": "69",
+    "username": "virtual console memory owner",
+    "homedir": "/dev",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "saslauth",
+    "passwd": "x",
+    "uid": "499",
+    "gid": "76",
+    "username": "\"Saslauthd user\"",
+    "homedir": "/var/empty/saslauth",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "postfix",
+    "passwd": "x",
+    "uid": "89",
+    "gid": "89",
+    "username": "",
+    "homedir": "/var/spool/postfix",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "sshd",
+    "passwd": "x",
+    "uid": "74",
+    "gid": "74",
+    "username": "Privilege-separated SSH",
+    "homedir": "/var/empty/sshd",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "dbus",
+    "passwd": "x",
+    "uid": "81",
+    "gid": "81",
+    "username": "System message bus",
+    "homedir": "/",
+    "shell": "/sbin/sh"
+  },
+  {
+    "loginname": "avahi-autoipd",
+    "passwd": "x",
+    "uid": "170",
+    "gid": "170",
+    "username": "Avahi IPv4LL Stack",
+    "homedir": "/var/lib/avahi-autoipd",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "puppet",
+    "passwd": "x",
+    "uid": "52",
+    "gid": "52",
+    "username": "Puppet",
+    "homedir": "/var/lib/puppet",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "momobot",
+    "passwd": "x",
+    "uid": "1602",
+    "gid": "1602",
+    "username": "momobot",
+    "homedir": "/home/momobot",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "zmq",
+    "passwd": "x",
+    "uid": "1033",
+    "gid": "1033",
+    "username": "zhang.mingqiang",
+    "homedir": "/home/zmq",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "wcl",
+    "passwd": "x",
+    "uid": "1003",
+    "gid": "1003",
+    "username": "wang.chunlai",
+    "homedir": "/home/wcl",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "harvey",
+    "passwd": "x",
+    "uid": "1015",
+    "gid": "1015",
+    "username": "zhang.jialiang",
+    "homedir": "/home/harvey",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "wang.jingxue",
+    "passwd": "x",
+    "uid": "1095",
+    "gid": "1095",
+    "username": "wang.jingxue",
+    "homedir": "/home/wang.jingxue",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "ntp",
+    "passwd": "x",
+    "uid": "38",
+    "gid": "38",
+    "username": "",
+    "homedir": "/etc/ntp",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "zabbix",
+    "passwd": "x",
+    "uid": "498",
+    "gid": "497",
+    "username": "Zabbix Monitoring System",
+    "homedir": "/var/lib/zabbix",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "supervisor",
+    "passwd": "x",
+    "uid": "2001",
+    "gid": "2001",
+    "username": "supervisor",
+    "homedir": "/home/supervisor",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "haproxy",
+    "passwd": "x",
+    "uid": "188",
+    "gid": "188",
+    "username": "",
+    "homedir": "/var/lib/haproxy",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "yang.huizhao",
+    "passwd": "x",
+    "uid": "1150",
+    "gid": "1150",
+    "username": "yang.huizhao",
+    "homedir": "/home/yang.huizhao",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "tang.peiliang",
+    "passwd": "x",
+    "uid": "1160",
+    "gid": "1160",
+    "username": "tang.peiliang",
+    "homedir": "/home/tang.peiliang",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "wang.zhaofeng",
+    "passwd": "x",
+    "uid": "1143",
+    "gid": "1143",
+    "username": "",
+    "homedir": "/home/wang.zhaofeng",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "mongod",
+    "passwd": "x",
+    "uid": "497",
+    "gid": "496",
+    "username": "mongod",
+    "homedir": "/var/lib/mongo",
+    "shell": "/bin/false"
+  },
+  {
+    "loginname": "mysql",
+    "passwd": "x",
+    "uid": "496",
+    "gid": "495",
+    "username": "MySQL server",
+    "homedir": "/var/lib/mysql",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "nscd",
+    "passwd": "x",
+    "uid": "28",
+    "gid": "28",
+    "username": "NSCD Daemon",
+    "homedir": "/",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "apache",
+    "passwd": "x",
+    "uid": "48",
+    "gid": "48",
+    "username": "Apache",
+    "homedir": "/var/www",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "zhang.qiao",
+    "passwd": "x",
+    "uid": "1077",
+    "gid": "1077",
+    "username": "zhang.qiao",
+    "homedir": "/home/zhang.qiao",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "meng.jun",
+    "passwd": "x",
+    "uid": "1083",
+    "gid": "1083",
+    "username": "meng.jun",
+    "homedir": "/home/meng.jun",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "zl",
+    "passwd": "x",
+    "uid": "1024",
+    "gid": "1024",
+    "username": "zhu.lin",
+    "homedir": "/home/zl",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "zwh",
+    "passwd": "x",
+    "uid": "1009",
+    "gid": "1009",
+    "username": "zhong.wenhuang",
+    "homedir": "/home/zwh",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "jyh",
+    "passwd": "x",
+    "uid": "1019",
+    "gid": "1019",
+    "username": "jian.yuhan",
+    "homedir": "/home/jyh",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "hyk",
+    "passwd": "x",
+    "uid": "1004",
+    "gid": "1004",
+    "username": "huang.yunkun",
+    "homedir": "/home/hyk",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "zdf",
+    "passwd": "x",
+    "uid": "1006",
+    "gid": "1006",
+    "username": "zhang.danfeng",
+    "homedir": "/home/zdf",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "kjx",
+    "passwd": "x",
+    "uid": "1026",
+    "gid": "1026",
+    "username": "kang.junxiang",
+    "homedir": "/home/kjx",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "qyy",
+    "passwd": "x",
+    "uid": "1032",
+    "gid": "1032",
+    "username": "qiu.yiyi",
+    "homedir": "/home/qyy",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "gao.yongzhi",
+    "passwd": "x",
+    "uid": "1091",
+    "gid": "1091",
+    "username": "gao.yongzhi",
+    "homedir": "/home/gao.yongzhi",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "wu.daolin",
+    "passwd": "x",
+    "uid": "1048",
+    "gid": "1048",
+    "username": "wu.daolin",
+    "homedir": "/home/wu.daolin",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "liu.wenjian",
+    "passwd": "x",
+    "uid": "1101",
+    "gid": "1101",
+    "username": "liu.wenjian",
+    "homedir": "/home/liu.wenjian",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "liu.xiaoyuan",
+    "passwd": "x",
+    "uid": "1110",
+    "gid": "1110",
+    "username": "liu.xiaoyuan",
+    "homedir": "/home/liu.xiaoyuan",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "li.bingqiang",
+    "passwd": "x",
+    "uid": "1074",
+    "gid": "1074",
+    "username": "li.bingqiang",
+    "homedir": "/home/li.bingqiang",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "xu.huiqing",
+    "passwd": "x",
+    "uid": "1053",
+    "gid": "1053",
+    "username": "xu.huiqing",
+    "homedir": "/home/xu.huiqing",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "hou.xinghua",
+    "passwd": "x",
+    "uid": "1142",
+    "gid": "1142",
+    "username": "hou.xinghua",
+    "homedir": "/home/hou.xinghua",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "tcpdump",
+    "passwd": "x",
+    "uid": "72",
+    "gid": "72",
+    "username": "",
+    "homedir": "/",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "han.junxian",
+    "passwd": "x",
+    "uid": "6190",
+    "gid": "6190",
+    "username": "",
+    "homedir": "/home/han.junxian",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "mailnull",
+    "passwd": "x",
+    "uid": "47",
+    "gid": "47",
+    "username": "",
+    "homedir": "/var/spool/mqueue",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "smmsp",
+    "passwd": "x",
+    "uid": "51",
+    "gid": "51",
+    "username": "",
+    "homedir": "/var/spool/mqueue",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "ossec",
+    "passwd": "x",
+    "uid": "495",
+    "gid": "494",
+    "username": "",
+    "homedir": "/home/server/ossec/opt",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "ossecm",
+    "passwd": "x",
+    "uid": "494",
+    "gid": "494",
+    "username": "",
+    "homedir": "/home/server/ossec/opt",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "ossecr",
+    "passwd": "x",
+    "uid": "493",
+    "gid": "494",
+    "username": "",
+    "homedir": "/home/server/ossec/opt",
+    "shell": "/sbin/nologin"
+  },
+  {
+    "loginname": "cao.rui",
+    "passwd": "x",
+    "uid": "1054",
+    "gid": "1054",
+    "username": "cao.rui",
+    "homedir": "/home/cao.rui",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "cui.ruixiang",
+    "passwd": "x",
+    "uid": "6404",
+    "gid": "6404",
+    "username": "",
+    "homedir": "/home/cui.ruixiang",
+    "shell": "/bin/bash"
+  },
+  {
+    "loginname": "zhang.jiaxuan",
+    "passwd": "x",
+    "uid": "6405",
+    "gid": "6405",
+    "username": "zhang.jiaxuan",
+    "homedir": "/home/zhang.jiaxuan",
+    "shell": "/bin/bash"
+  }
+]
+,"group_info":
+[
+  {
+    "groupname": "root",
+    "passwd": "x",
+    "org_num": "0",
+    "userlist": null
+  },
+  {
+    "groupname": "bin",
+    "passwd": "x",
+    "org_num": "1",
+    "userlist": "bin,daemon"
+  },
+  {
+    "groupname": "daemon",
+    "passwd": "x",
+    "org_num": "2",
+    "userlist": "bin,daemon"
+  },
+  {
+    "groupname": "sys",
+    "passwd": "x",
+    "org_num": "3",
+    "userlist": "bin,adm"
+  },
+  {
+    "groupname": "adm",
+    "passwd": "x",
+    "org_num": "4",
+    "userlist": "adm,daemon"
+  },
+  {
+    "groupname": "tty",
+    "passwd": "x",
+    "org_num": "5",
+    "userlist": null
+  },
+  {
+    "groupname": "disk",
+    "passwd": "x",
+    "org_num": "6",
+    "userlist": null
+  },
+  {
+    "groupname": "lp",
+    "passwd": "x",
+    "org_num": "7",
+    "userlist": "daemon"
+  },
+  {
+    "groupname": "mem",
+    "passwd": "x",
+    "org_num": "8",
+    "userlist": null
+  },
+  {
+    "groupname": "kmem",
+    "passwd": "x",
+    "org_num": "9",
+    "userlist": null
+  },
+  {
+    "groupname": "wheel",
+    "passwd": "x",
+    "org_num": "10",
+    "userlist": null
+  },
+  {
+    "groupname": "mail",
+    "passwd": "x",
+    "org_num": "12",
+    "userlist": "mail,postfix"
+  },
+  {
+    "groupname": "uucp",
+    "passwd": "x",
+    "org_num": "14",
+    "userlist": null
+  },
+  {
+    "groupname": "man",
+    "passwd": "x",
+    "org_num": "15",
+    "userlist": null
+  },
+  {
+    "groupname": "games",
+    "passwd": "x",
+    "org_num": "20",
+    "userlist": null
+  },
+  {
+    "groupname": "gopher",
+    "passwd": "x",
+    "org_num": "30",
+    "userlist": null
+  },
+  {
+    "groupname": "video",
+    "passwd": "x",
+    "org_num": "39",
+    "userlist": null
+  },
+  {
+    "groupname": "dip",
+    "passwd": "x",
+    "org_num": "40",
+    "userlist": null
+  },
+  {
+    "groupname": "ftp",
+    "passwd": "x",
+    "org_num": "50",
+    "userlist": null
+  },
+  {
+    "groupname": "lock",
+    "passwd": "x",
+    "org_num": "54",
+    "userlist": null
+  },
+  {
+    "groupname": "audio",
+    "passwd": "x",
+    "org_num": "63",
+    "userlist": null
+  },
+  {
+    "groupname": "nobody",
+    "passwd": "x",
+    "org_num": "99",
+    "userlist": null
+  },
+  {
+    "groupname": "users",
+    "passwd": "x",
+    "org_num": "100",
+    "userlist": null
+  },
+  {
+    "groupname": "floppy",
+    "passwd": "x",
+    "org_num": "19",
+    "userlist": null
+  },
+  {
+    "groupname": "aaaa",
+    "passwd": "x",
+    "org_num": "19",
+    "userlist": null
+  },
+  {
+    "groupname": "vcsa",
+    "passwd": "x",
+    "org_num": "69",
+    "userlist": null
+  },
+  {
+    "groupname": "utmp",
+    "passwd": "x",
+    "org_num": "22",
+    "userlist": null
+  },
+  {
+    "groupname": "utempter",
+    "passwd": "x",
+    "org_num": "35",
+    "userlist": null
+  },
+  {
+    "groupname": "cdrom",
+    "passwd": "x",
+    "org_num": "11",
+    "userlist": null
+  },
+  {
+    "groupname": "tape",
+    "passwd": "x",
+    "org_num": "33",
+    "userlist": null
+  },
+  {
+    "groupname": "dialout",
+    "passwd": "x",
+    "org_num": "18",
+    "userlist": null
+  },
+  {
+    "groupname": "saslauth",
+    "passwd": "x",
+    "org_num": "76",
+    "userlist": null
+  },
+  {
+    "groupname": "postdrop",
+    "passwd": "x",
+    "org_num": "90",
+    "userlist": null
+  },
+  {
+    "groupname": "postfix",
+    "passwd": "x",
+    "org_num": "89",
+    "userlist": null
+  },
+  {
+    "groupname": "fuse",
+    "passwd": "x",
+    "org_num": "499",
+    "userlist": null
+  },
+  {
+    "groupname": "sshd",
+    "passwd": "x",
+    "org_num": "74",
+    "userlist": null
+  },
+  {
+    "groupname": "dbus",
+    "passwd": "x",
+    "org_num": "81",
+    "userlist": null
+  },
+  {
+    "groupname": "cgred",
+    "passwd": "x",
+    "org_num": "498",
+    "userlist": null
+  },
+  {
+    "groupname": "avahi-autoipd",
+    "passwd": "x",
+    "org_num": "170",
+    "userlist": null
+  },
+  {
+    "groupname": "puppet",
+    "passwd": "x",
+    "org_num": "52",
+    "userlist": null
+  },
+  {
+    "groupname": "momosu",
+    "passwd": "x",
+    "org_num": "1999",
+    "userlist": null
+  },
+  {
+    "groupname": "supervisor",
+    "passwd": "x",
+    "org_num": "2001",
+    "userlist": "supervisor"
+  },
+  {
+    "groupname": "momobot",
+    "passwd": "x",
+    "org_num": "1602",
+    "userlist": "zhang.qiao,meng.jun,zl,zwh,jyh,hyk,zmq,zdf,kjx,qyy,gao.yongzhi,wu.daolin,addeduser"
+  },
+  {
+    "groupname": "momo",
+    "passwd": "x",
+    "org_num": "999",
+    "userlist": "zmq,wcl,harvey,wang.jingxue,yang.huizhao,tang.peiliang,wang.zhaofeng,zhang.qiao,meng.jun,zl,zwh,jyh,hyk,zdf,kjx,qyy,gao.yongzhi,wu.daolin,liu.wenjian,liu.xiaoyuan,li.bingqiang,xu.huiqing,hou.xinghua,han.junxian,cui.ruixiang,zhang.jiaxuan"
+  },
+  {
+    "groupname": "zmq",
+    "passwd": "x",
+    "org_num": "1033",
+    "userlist": null
+  },
+  {
+    "groupname": "wcl",
+    "passwd": "x",
+    "org_num": "1003",
+    "userlist": null
+  },
+  {
+    "groupname": "harvey",
+    "passwd": "x",
+    "org_num": "1015",
+    "userlist": null
+  },
+  {
+    "groupname": "wang.jingxue",
+    "passwd": "x",
+    "org_num": "1095",
+    "userlist": null
+  },
+  {
+    "groupname": "ntp",
+    "passwd": "x",
+    "org_num": "38",
+    "userlist": null
+  },
+  {
+    "groupname": "zabbix",
+    "passwd": "x",
+    "org_num": "497",
+    "userlist": null
+  },
+  {
+    "groupname": "haproxy",
+    "passwd": "x",
+    "org_num": "188",
+    "userlist": null
+  },
+  {
+    "groupname": "yang.huizhao",
+    "passwd": "x",
+    "org_num": "1150",
+    "userlist": null
+  },
+  {
+    "groupname": "tang.peiliang",
+    "passwd": "x",
+    "org_num": "1160",
+    "userlist": null
+  },
+  {
+    "groupname": "wang.zhaofeng",
+    "passwd": "x",
+    "org_num": "1143",
+    "userlist": null
+  },
+  {
+    "groupname": "mongod",
+    "passwd": "x",
+    "org_num": "496",
+    "userlist": null
+  },
+  {
+    "groupname": "mysql",
+    "passwd": "x",
+    "org_num": "495",
+    "userlist": null
+  },
+  {
+    "groupname": "nscd",
+    "passwd": "x",
+    "org_num": "28",
+    "userlist": null
+  },
+  {
+    "groupname": "apache",
+    "passwd": "x",
+    "org_num": "48",
+    "userlist": null
+  },
+  {
+    "groupname": "meng.jun",
+    "passwd": "x",
+    "org_num": "1083",
+    "userlist": null
+  },
+  {
+    "groupname": "zl",
+    "passwd": "x",
+    "org_num": "1024",
+    "userlist": null
+  },
+  {
+    "groupname": "zwh",
+    "passwd": "x",
+    "org_num": "1009",
+    "userlist": null
+  },
+  {
+    "groupname": "jyh",
+    "passwd": "x",
+    "org_num": "1019",
+    "userlist": null
+  },
+  {
+    "groupname": "hyk",
+    "passwd": "x",
+    "org_num": "1004",
+    "userlist": null
+  },
+  {
+    "groupname": "zdf",
+    "passwd": "x",
+    "org_num": "1006",
+    "userlist": null
+  },
+  {
+    "groupname": "kjx",
+    "passwd": "x",
+    "org_num": "1026",
+    "userlist": null
+  },
+  {
+    "groupname": "qyy",
+    "passwd": "x",
+    "org_num": "1032",
+    "userlist": null
+  },
+  {
+    "groupname": "gao.yongzhi",
+    "passwd": "x",
+    "org_num": "1091",
+    "userlist": null
+  },
+  {
+    "groupname": "wu.daolin",
+    "passwd": "x",
+    "org_num": "1048",
+    "userlist": null
+  },
+  {
+    "groupname": "liu.wenjian",
+    "passwd": "x",
+    "org_num": "1101",
+    "userlist": null
+  },
+  {
+    "groupname": "liu.xiaoyuan",
+    "passwd": "x",
+    "org_num": "1110",
+    "userlist": null
+  },
+  {
+    "groupname": "li.bingqiang",
+    "passwd": "x",
+    "org_num": "1074",
+    "userlist": null
+  },
+  {
+    "groupname": "xu.huiqing",
+    "passwd": "x",
+    "org_num": "1053",
+    "userlist": null
+  },
+  {
+    "groupname": "hou.xinghua",
+    "passwd": "x",
+    "org_num": "1142",
+    "userlist": null
+  },
+  {
+    "groupname": "tcpdump",
+    "passwd": "x",
+    "org_num": "72",
+    "userlist": null
+  },
+  {
+    "groupname": "han.junxian",
+    "passwd": "x",
+    "org_num": "6190",
+    "userlist": null
+  },
+  {
+    "groupname": "mailnull",
+    "passwd": "x",
+    "org_num": "47",
+    "userlist": null
+  },
+  {
+    "groupname": "smmsp",
+    "passwd": "x",
+    "org_num": "51",
+    "userlist": null
+  },
+  {
+    "groupname": "ossec",
+    "passwd": "x",
+    "org_num": "494",
+    "userlist": null
+  },
+  {
+    "groupname": "network",
+    "passwd": "x",
+    "org_num": "2005",
+    "userlist": "cao.rui,xu.huiqing,hou.xinghua"
+  },
+  {
+    "groupname": "cao.rui",
+    "passwd": "x",
+    "org_num": "1054",
+    "userlist": null
+  },
+  {
+    "groupname": "cui.ruixiang",
+    "passwd": "x",
+    "org_num": "6404",
+    "userlist": null
+  },
+  {
+    "groupname": "zhang.jiaxuan",
+    "passwd": "x",
+    "org_num": "6405",
+    "userlist": null
+  },
+  {
+    "groupname": "rvm",
+    "passwd": "x",
+    "org_num": "6406",
+    "userlist": null
+  },
+  {
+    "groupname": "jenkins",
+    "passwd": "x",
+    "org_num": "493",
+    "userlist": null
+  }
+]
+,"shadow_info":
+[
+  {
+    "username": "root",
+    "passwd_flag": "******",
+    "last_change_pwd": "16470"
+  },
+  {
+    "username": "bin",
+    "passwd_flag": "*",
+    "last_change_pwd": "15980"
+  },
+  {
+    "username": "daemon",
+    "passwd_flag": "*",
+    "last_change_pwd": "15980"
+  },
+  {
+    "username": "adm",
+    "passwd_flag": "*",
+    "last_change_pwd": "15980"
+  },
+  {
+    "username": "lp",
+    "passwd_flag": "*",
+    "last_change_pwd": "15980"
+  },
+  {
+    "username": "sync",
+    "passwd_flag": "*",
+    "last_change_pwd": "15980"
+  },
+  {
+    "username": "shutdown",
+    "passwd_flag": "*",
+    "last_change_pwd": "15980"
+  },
+  {
+    "username": "halt",
+    "passwd_flag": "*",
+    "last_change_pwd": "15980"
+  },
+  {
+    "username": "mail",
+    "passwd_flag": "*",
+    "last_change_pwd": "15980"
+  },
+  {
+    "username": "uucp",
+    "passwd_flag": "*",
+    "last_change_pwd": "15980"
+  },
+  {
+    "username": "operator",
+    "passwd_flag": "*",
+    "last_change_pwd": "15980"
+  },
+  {
+    "username": "games",
+    "passwd_flag": "*",
+    "last_change_pwd": "15980"
+  },
+  {
+    "username": "gopher",
+    "passwd_flag": "*",
+    "last_change_pwd": "15980"
+  },
+  {
+    "username": "ftp",
+    "passwd_flag": "*",
+    "last_change_pwd": "15980"
+  },
+  {
+    "username": "nobody",
+    "passwd_flag": "*",
+    "last_change_pwd": "15980"
+  },
+  {
+    "username": "vcsa",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16351"
+  },
+  {
+    "username": "saslauth",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16351"
+  },
+  {
+    "username": "postfix",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16351"
+  },
+  {
+    "username": "sshd",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16351"
+  },
+  {
+    "username": "dbus",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16351"
+  },
+  {
+    "username": "avahi-autoipd",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16351"
+  },
+  {
+    "username": "puppet",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16358"
+  },
+  {
+    "username": "momobot",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16386"
+  },
+  {
+    "username": "zmq",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16386"
+  },
+  {
+    "username": "wcl",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16386"
+  },
+  {
+    "username": "harvey",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16386"
+  },
+  {
+    "username": "wang.jingxue",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16386"
+  },
+  {
+    "username": "ntp",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16386"
+  },
+  {
+    "username": "zabbix",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16386"
+  },
+  {
+    "username": "supervisor",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16386"
+  },
+  {
+    "username": "haproxy",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16391"
+  },
+  {
+    "username": "yang.huizhao",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16470"
+  },
+  {
+    "username": "tang.peiliang",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16470"
+  },
+  {
+    "username": "wang.zhaofeng",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16470"
+  },
+  {
+    "username": "mongod",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16471"
+  },
+  {
+    "username": "mysql",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16471"
+  },
+  {
+    "username": "nscd",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16478"
+  },
+  {
+    "username": "apache",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16494"
+  },
+  {
+    "username": "zhang.qiao",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16494"
+  },
+  {
+    "username": "meng.jun",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16494"
+  },
+  {
+    "username": "zl",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16494"
+  },
+  {
+    "username": "zwh",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16494"
+  },
+  {
+    "username": "jyh",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16494"
+  },
+  {
+    "username": "hyk",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16494"
+  },
+  {
+    "username": "zdf",
+    "passwd_flag": "$6$ffjdi9$alskdjf8q7e3wr$327f",
+    "last_change_pwd": "16494"
+  },
+  {
+    "username": "kjx",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16494"
+  },
+  {
+    "username": "qyy",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16494"
+  },
+  {
+    "username": "gao.yongzhi",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16494"
+  },
+  {
+    "username": "wu.daolin",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16494"
+  },
+  {
+    "username": "liu.wenjian",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16750"
+  },
+  {
+    "username": "liu.xiaoyuan",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16807"
+  },
+  {
+    "username": "li.bingqiang",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16807"
+  },
+  {
+    "username": "xu.huiqing",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16807"
+  },
+  {
+    "username": "hou.xinghua",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16807"
+  },
+  {
+    "username": "tcpdump",
+    "passwd_flag": "!!",
+    "last_change_pwd": "16868"
+  },
+  {
+    "username": "han.junxian",
+    "passwd_flag": "!!",
+    "last_change_pwd": "17071"
+  },
+  {
+    "username": "mailnull",
+    "passwd_flag": "!!",
+    "last_change_pwd": "17105"
+  },
+  {
+    "username": "smmsp",
+    "passwd_flag": "!!",
+    "last_change_pwd": "17105"
+  },
+  {
+    "username": "ossec",
+    "passwd_flag": "!!",
+    "last_change_pwd": "17105"
+  },
+  {
+    "username": "ossecm",
+    "passwd_flag": "!!",
+    "last_change_pwd": "17105"
+  },
+  {
+    "username": "ossecr",
+    "passwd_flag": "!!",
+    "last_change_pwd": "17105"
+  },
+  {
+    "username": "cao.rui",
+    "passwd_flag": "!!",
+    "last_change_pwd": "17211"
+  },
+  {
+    "username": "cui.ruixiang",
+    "passwd_flag": "!!",
+    "last_change_pwd": "17212"
+  },
+  {
+    "username": "zhang.jiaxuan",
+    "passwd_flag": "!!",
+    "last_change_pwd": "17325"
+  },
+  {
+    "username": "jenkins",
+    "passwd_flag": "!!",
+    "last_change_pwd": "17292"
+  }
+]
+}
