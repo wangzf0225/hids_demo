@@ -12,7 +12,7 @@ end
 # 检查文件的属主和更改（含创建）时间
 #
 def base_line(fileinfo)
-	return true if not fileinfo["owner"] == 'momobot'
+	return true if not fileinfo["owner"] == 'publisher'
 	time_of_create =  fileinfo["m_time_stamp"].to_f%86400/3600
 	return true unless 2 < time_of_create and time_of_create < 16
 	false
